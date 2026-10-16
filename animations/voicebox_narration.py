@@ -13,7 +13,7 @@ HERE=Path(__file__).resolve().parent
 ROOT=HERE.parent
 VOICEBOX_COMMIT='8af7efe62fab8d33e2a5dfbedabaa45f68a5184f'
 MODEL_REVISION='f3ff3571791e39611d31c381e3a41a3af07b4987'
-VOICE='af_heart'
+VOICE='am_michael'
 REPO='hexgrad/Kokoro-82M'
 CHECKOUT=ROOT/'.cache/voicebox'
 

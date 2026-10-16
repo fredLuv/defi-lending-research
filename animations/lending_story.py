@@ -52,7 +52,7 @@ class LendingStory(m.Scene):
         self.add(footer)
         def heading(title,subtitle):return m.VGroup(text(title,0,3.2,36),text(subtitle,0,2.55,21,MUTED))
         # 0–12 seconds: original quote conventions, not an earned-return backtest.
-        frame=heading('Is DeFi lending yield worth it?',f'Current Ethereum USDC products | {stamp}')
+        frame=heading('Is stablecoin lending worth it?',f'Current Ethereum USDC products | {stamp}')
         bottom=-1.3
         for tick in [0,2,4,6]:
             y=bottom+tick*.43

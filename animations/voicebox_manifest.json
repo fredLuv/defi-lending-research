@@ -3,7 +3,7 @@
   "voicebox_commit": "8af7efe62fab8d33e2a5dfbedabaa45f68a5184f",
   "model": "hexgrad/Kokoro-82M",
   "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
-  "voice": "af_heart",
+  "voice": "am_michael",
   "voice_type": "synthetic preset",
   "device": "cpu",
   "threads": 4,
@@ -12,48 +12,48 @@
   "model_file_sha256": {
     "config.json": "5abb01e2403b072bf03d04fde160443e209d7a0dad49a423be15196b9b43c17f",
     "kokoro-v1_0.pth": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
-    "voices/af_heart.pt": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff"
+    "voices/am_michael.pt": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37"
   },
   "segments": [
     {
       "start": 0.2,
       "end": 2.8,
-      "text": "Is lending digital dollars worth it?",
-      "duration_seconds": 2.0,
-      "wav_sha256": "b532471923b61dc1b7536092b79ace61987db01781570c590a1d7d3828f6231e"
+      "text": "Is stablecoin lending worth it?",
+      "duration_seconds": 1.8,
+      "wav_sha256": "fbeef2a8f6f11dd7fa78775fd94d672815b03a3064376c1d270b88c830d41c86"
     },
     {
       "start": 2.9,
       "end": 11.8,
       "text": "These Aave and Morpho products quote higher rates than a short-term Treasury fund. But fees and access to your money matter.",
-      "duration_seconds": 7.32,
-      "wav_sha256": "8d0c4c8d0e23e38c636538885f71ade675c431367435b811e33427886123272e"
+      "duration_seconds": 7.84,
+      "wav_sha256": "b9ff3da69f5e4cf687c02f7f5ae994e71c271d364c06f8f1a9ae988f7195755f"
     },
     {
       "start": 12.4,
       "end": 19.9,
       "text": "Over ninety days, Aave earns eleven dollars more than the Treasury fund after fees, if rates hold.",
-      "duration_seconds": 6.04,
-      "wav_sha256": "7920b7a4f1bd43f102228e5c51d7c1b7f95b7b1b7ed4ecb86c5c1a6aaa7060a4"
+      "duration_seconds": 6.68,
+      "wav_sha256": "731fdf8e0ab3ffe54e6083ed8be922bcd4d98173ee4cc66792e5ac095ff24890"
     },
     {
       "start": 20.7,
       "end": 30.8,
       "text": "April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.",
-      "duration_seconds": 8.9,
-      "wav_sha256": "6b4e88c9e0ef9638fa0add9289bf81f923b36e935fb1e2c958b95bfdd5991d80"
+      "duration_seconds": 9.6,
+      "wav_sha256": "f5e54a744a8260e7f3e757efebc48347301d4211aafd7b5e7db2b41bc9d1f555"
     },
     {
       "start": 32.1,
       "end": 38.0,
       "text": "Better apps should explain earnings after fees, and how easily you can get your money back.",
-      "duration_seconds": 4.74,
-      "wav_sha256": "b3d87fe4de2efc6a9d760e99f79ad33ee9316a641561705717be560b8b25577e"
+      "duration_seconds": 5.22,
+      "wav_sha256": "c199267f9d62ad5d4fa8318a0a7025ed1ed9e06065aa0b4e6b923808bcf508fe"
     }
   ],
-  "source_video_sha256": "9df6b3b4e87518ecff7995548cecce3da7a82972427bf02698f80c314372d24c",
-  "output_sha256": "e7ef9fbb7a8a234d08e0d77ea008074b6ed1ecb60d56eac370fcb97cd8e872f9",
-  "script_sha256": "9303b0597ee42d8c6edcacc6f163090fa6f36ffe775b28298e14acbdacb1d4ab",
+  "source_video_sha256": "082932672baeaa222963f8c511b5d0789e1a65fd43656674c09cf73b3ccb4a6a",
+  "output_sha256": "deb2bd6b2e21e92d20b47885e99b7524d3512b827b6d46481e9ebe1d7d59db01",
+  "script_sha256": "8684c23f1a9c9728320e6450884d4b0b97960592e03e4938375a93465b0607f5",
   "video_stream": "copied unchanged",
   "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling"
 }

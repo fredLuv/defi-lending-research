@@ -1,4 +1,4 @@
-I compared lending USDC—a digital token designed to track the US dollar—with a short-term Treasury fund.
+I compared lending USDC—a stablecoin designed to track the US dollar—with a short-term Treasury fund.
 
 Aave V4 and two Morpho V2 lending options quoted higher rates. But fees, how long you invest, and getting your money back all matter.
 

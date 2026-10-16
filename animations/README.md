@@ -15,7 +15,7 @@
 
 The older narrowing-spread result belongs to the [historical V3/V1 notebook](../notebooks/03_historical_treasury_comparison.ipynb), not today's products. The old [Samantha narration file](usdc_yield_liquidity_narrated.mp4) is an archived **V3/V1 historical version**, not the current comparison.
 
-The current narration uses **Voicebox's Kokoro backend and the Heart preset**, a synthetic voice, at normal speed. The narration uses plain language and identifies the USD 11 example as extra income **relative to the Treasury fund**, conditional on rates staying constant. [Voiceover script](voicebox_narration.json) · [caption text](linkedin_captions.srt) · [suggested LinkedIn wording](linkedin-caption.md).
+The current narration uses **Voicebox's Kokoro backend and the Michael preset**, a synthetic American English male voice, at normal speed. The opening asks “Is stablecoin lending worth it?” The narration uses plain language and identifies the USD 11 example as extra income **relative to the Treasury fund**, conditional on rates staying constant. [Voiceover script](voicebox_narration.json) · [caption text](linkedin_captions.srt) · [suggested LinkedIn wording](linkedin-caption.md).
 
 The LinkedIn export adds a **240-pixel subtitle band below the 1920 × 1080 charts**. It never covers or crops them. A persistent line reads **“For educational purposes only · Not financial advice.”** Output is 1920 × 1320; the Voicebox audio is copied unchanged. Captions are phrase-level editorial cues, not word-level forced alignment.
 
@@ -49,7 +49,7 @@ uv pip install --python .venv-voicebox/bin/python -r animations/requirements-voi
 .venv-voicebox/bin/python animations/voicebox_narration.py
 ```
 
-The script calls the actual `KokoroTTSBackend.generate` implementation from that Voicebox checkout; the desktop frontend is not required. Kokoro-82M weights and the `af_heart` preset are downloaded at a fixed Hugging Face revision, then inference runs locally on four CPU threads. The original video stream is copied without re-encoding. There is no voice cloning, cloud synthesis, paid API or playback-speed increase. Cached speech takes permit resuming; each segment must fit its scene or the build stops. A temporary short-path dictionary copy handles an eSpeak native-loader limitation under long project paths.
+The script calls the actual `KokoroTTSBackend.generate` implementation from that Voicebox checkout; the desktop frontend is not required. Kokoro-82M weights and the `am_michael` preset are downloaded at a fixed Hugging Face revision, then inference runs locally on four CPU threads. The original video stream is copied without re-encoding. There is no voice cloning, cloud synthesis, paid API or playback-speed increase. Cached speech takes permit resuming; each segment must fit its scene or the build stops. A temporary short-path dictionary copy handles an eSpeak native-loader limitation under long project paths.
 
 [Voicebox manifest](voicebox_manifest.json) records model/voice hashes, seed, timings and output checksum. Voicebox is MIT-licensed; the [Kokoro model](https://huggingface.co/hexgrad/Kokoro-82M) is Apache-2.0. Model weights and the third-party source checkout remain in local caches, outside Git.
 

@@ -1,19 +1,19 @@
 1
-00:00:00,200 --> 00:00:02,200
-Is lending digital dollars worth it?
+00:00:00,200 --> 00:00:02,000
+Is stablecoin lending worth it?
 
 2
-00:00:02,900 --> 00:00:10,220
+00:00:02,900 --> 00:00:10,740
 These Aave and Morpho products quote higher rates than a short-term Treasury fund. But fees and access to your money matter.
 
 3
-00:00:12,400 --> 00:00:18,440
+00:00:12,400 --> 00:00:19,080
 Over ninety days, Aave earns eleven dollars more than the Treasury fund after fees, if rates hold.
 
 4
-00:00:20,700 --> 00:00:29,600
+00:00:20,700 --> 00:00:30,300
 April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.
 
 5
-00:00:32,100 --> 00:00:36,840
+00:00:32,100 --> 00:00:37,320
 Better apps should explain earnings after fees, and how easily you can get your money back.
