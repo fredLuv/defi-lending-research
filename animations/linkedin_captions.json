@@ -26,17 +26,17 @@
   },
   {
     "start": 20.7,
-    "end": 25.4,
-    "text": "April's example used Aave V3. Today's products are different."
+    "end": 26.6,
+    "text": "Older Aave V3: about 6,500 USDC available on April 21."
   },
   {
-    "start": 25.4,
+    "start": 26.6,
     "end": 30.8,
-    "text": "Available cash is shared, so immediate withdrawals aren't guaranteed."
+    "text": "Today's reported amounts do not guarantee immediate withdrawals."
   },
   {
     "start": 32.1,
     "end": 38.0,
-    "text": "Better apps should explain earnings after fees,\nand how easily you can get your money back."
+    "text": "Fees can erase the extra earnings.\nApps should explain costs and withdrawal delays."
   }
 ]

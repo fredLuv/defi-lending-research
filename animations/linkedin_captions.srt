@@ -21,14 +21,14 @@ than the Treasury fund after fees.
 If rates hold. This is an example, not a forecast.
 
 6
-00:00:20,700 --> 00:00:25,400
-April's example used Aave V3. Today's products are different.
+00:00:20,700 --> 00:00:26,600
+Older Aave V3: about 6,500 USDC available on April 21.
 
 7
-00:00:25,400 --> 00:00:30,800
-Available cash is shared, so immediate withdrawals aren't guaranteed.
+00:00:26,600 --> 00:00:30,800
+Today's reported amounts do not guarantee immediate withdrawals.
 
 8
 00:00:32,100 --> 00:00:38,000
-Better apps should explain earnings after fees,
-and how easily you can get your money back.
+Fees can erase the extra earnings.
+Apps should explain costs and withdrawal delays.

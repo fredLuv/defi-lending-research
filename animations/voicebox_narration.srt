@@ -11,9 +11,9 @@ These Aave and Morpho products quote higher rates than a short-term Treasury fun
 Over ninety days, Aave earns eleven dollars more than the Treasury fund after fees, if rates hold.
 
 4
-00:00:20,700 --> 00:00:30,300
-April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.
+00:00:20,700 --> 00:00:30,240
+Aave version three had about sixty-five hundred USDC available in April. Today's figures don't guarantee immediate withdrawals.
 
 5
-00:00:32,100 --> 00:00:37,320
-Better apps should explain earnings after fees, and how easily you can get your money back.
+00:00:32,100 --> 00:00:37,440
+Fees can erase the extra earnings. Apps should explain costs and withdrawal delays.

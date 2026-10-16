@@ -82,22 +82,24 @@ class LendingStory(m.Scene):
                   text('USDC at par; rewards/tax excluded. SEC yield converted for compounding.',0,-3.12,18,MUTED))
         self.play(m.FadeIn(frame),run_time=.6);self.wait(7.1);self.play(m.FadeOut(frame),run_time=.6)
         # 20.3–31.3: current liquidity and clearly separate historical context.
-        frame=heading('Yield and cash access are separate questions','Reported current USDC capacity · not a guaranteed wallet withdrawal')
+        frame=heading('Shared cash can limit withdrawals','Current reported USDC amounts · not guaranteed withdrawals')
         labels=['Aave V4 Core Hub','Morpho V2 Steakhouse','Morpho V2 Gauntlet']
         for i,key in enumerate(KEYS):
             y=1.55-i*.78;amount=float(rates[key]['available_usdc'])/1e6
             frame.add(text(labels[i],-3.2,y,25,COLORS[i]),text(f'{amount:.2f}m USDC',1.3,y,28,COLORS[i]),
-                      text('shared Hub cash' if i==0 else 'vault capacity',4.25,y,20,MUTED))
-        frame.add(text('Morpho capacities may overlap: do not add them. SGOV: market hours + T+1.',0,-1.0,20,MUTED),
+                      text('shared pool cash' if i==0 else 'reported access',4.25,y,20,MUTED))
+        frame.add(text('Morpho amounts may overlap: do not add them.',0,-.84,20,MUTED),
+                  text('SGOV: sell during market hours; cash settles the next business day.',0,-1.19,18,MUTED),
                   line(-5.8,-1.55,5.8,-1.55),
-                  text('Historical context — different product',0,-1.94,24),
+                  text('April example: older Aave V3, not V4',0,-1.94,24),
                   text(f"Aave V3 Core: {float(old['capacity_usdc']):,.0f} USDC available on 21 April 2026",0,-2.5,24),
-                  text('This was not V4. Cash scarcity is not evidence of a realized USDC loss.',0,-3.1,19,MUTED))
+                  text('Low available cash does not establish that depositors lost money.',0,-3.1,19,MUTED))
         self.play(m.FadeIn(frame),run_time=.6);self.wait(9.8);self.play(m.FadeOut(frame),run_time=.6)
         # 31.3–38.1: a concise product conclusion.
-        closing=m.VGroup(text('Earnings after fees. Access to your money.',0,2.4,38),
-            text('Your amount. Your holding period.',0,.8,32),
-            text('Know how to get your money back.',0,.05,30),
+        closing=m.VGroup(text('Fees can erase the extra earnings.',0,2.4,38),
+            text('Better apps should make two things clear:',0,1.25,25,MUTED),
+            text('Earnings after fees',0,.5,32),
+            text('What could delay getting your money back',0,-.16,30),
             text('Notebook · code · data',0,-1.4,23,MUTED),
             text('github.com/fredLuv/defi-lending-research',0,-2.15,30,'#3476A8'))
         self.play(m.FadeIn(closing),run_time=.8);self.wait(6)

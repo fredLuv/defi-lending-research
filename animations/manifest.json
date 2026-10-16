@@ -8,16 +8,16 @@
     1080
   ],
   "fps": 30,
-  "render_command_wall_seconds": 3.054,
+  "render_command_wall_seconds": 2.36,
   "input_sha256": {
     "reports/current_rates.csv": "4e5db417bcea5716678effec5e2144b539278199583f13fedfcf57afef598e2f",
     "reports/current_scenarios.csv": "f79d01160a7aed73ab948a32c229def642e64cc1adc55c654551295a7a165be5",
     "data/current_manifest.json": "8859ea427634f86b3bcde93557f7e3b4df20657da1b23108188cbaea43a3d49f",
     "data/processed/daily_panel.csv": "237fe7c2288d993bbda6ab19c5e636cf628bd1771b356ed70652610b643b3ad9",
-    "animations/lending_story.py": "b9ca5188e0e5c5e58dc82e5aa161148029e74fcfffdfe8341c36c6bb14015211",
+    "animations/lending_story.py": "9480639ec06383f6fcc0ad9afb96ebe55f006074f9c26b2f0203031d0180c855",
     "animations/requirements.lock": "69b31486dfbce28f7bccaf35417da613a199af9cc667da6995f567425a5530ad"
   },
-  "video_sha256": "082932672baeaa222963f8c511b5d0789e1a65fd43656674c09cf73b3ccb4a6a",
+  "video_sha256": "0f9d285bcf405426a4acd208d1806cc008caecde381d8ea0b185113a4a6b1cb0",
   "current_quote_rates": {
     "aave_v4": 0.0545323349283766,
     "steakhouse_v2": 0.045493130622933343,

@@ -39,21 +39,21 @@
     {
       "start": 20.7,
       "end": 30.8,
-      "text": "April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.",
-      "duration_seconds": 9.6,
-      "wav_sha256": "f5e54a744a8260e7f3e757efebc48347301d4211aafd7b5e7db2b41bc9d1f555"
+      "text": "Aave version three had about sixty-five hundred USDC available in April. Today's figures don't guarantee immediate withdrawals.",
+      "duration_seconds": 9.54,
+      "wav_sha256": "69cb248729eb9eda661a4957ca1cf9615331b462d688dd13c7a344dad6a514f5"
     },
     {
       "start": 32.1,
       "end": 38.0,
-      "text": "Better apps should explain earnings after fees, and how easily you can get your money back.",
-      "duration_seconds": 5.22,
-      "wav_sha256": "c199267f9d62ad5d4fa8318a0a7025ed1ed9e06065aa0b4e6b923808bcf508fe"
+      "text": "Fees can erase the extra earnings. Apps should explain costs and withdrawal delays.",
+      "duration_seconds": 5.34,
+      "wav_sha256": "f33927feb22d99695a02f981a7d5d9f4c73ab8330ac501837bf10942564a3f79"
     }
   ],
-  "source_video_sha256": "082932672baeaa222963f8c511b5d0789e1a65fd43656674c09cf73b3ccb4a6a",
-  "output_sha256": "deb2bd6b2e21e92d20b47885e99b7524d3512b827b6d46481e9ebe1d7d59db01",
-  "script_sha256": "8684c23f1a9c9728320e6450884d4b0b97960592e03e4938375a93465b0607f5",
+  "source_video_sha256": "0f9d285bcf405426a4acd208d1806cc008caecde381d8ea0b185113a4a6b1cb0",
+  "output_sha256": "14bdfe9c071b427767c4f33ec362d9c3aa4ef781e22db1037552be45256db724",
+  "script_sha256": "c418727d109f3378f10d75690b7293290f20e64bdc2bb04d9905ea21bcdc9135",
   "video_stream": "copied unchanged",
   "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling"
 }
