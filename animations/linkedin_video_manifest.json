@@ -1,7 +1,7 @@
 {
   "source_sha256": "14bdfe9c071b427767c4f33ec362d9c3aa4ef781e22db1037552be45256db724",
   "captions_sha256": "98144777698dbefcf18b3c922d75fc1f25f4870e6b29a6d6247330cb8a040b0f",
-  "output_sha256": "00ac0fee24a5089e3cf3300dca85d25a22b2d577ed5fe4c9c9801acd7f040c4e",
+  "output_sha256": "8292820f77eb88f50a6c650f0f792d58ac7dee344c10e6bae0be896643621b71",
   "output_resolution": [
     1920,
     1320
@@ -21,7 +21,11 @@
   "subtitle_font_px": 48,
   "disclaimer_font_px": 32,
   "disclaimer": "For educational purposes only \u00b7 Not financial advice",
-  "audio": "copied unchanged",
-  "timing": "Phrase-level editorial cues; numbers normalized for reading.",
+  "opening_trim_seconds": 0.2,
+  "opening_full_frame_source_seconds": 0.6,
+  "opening_still_seconds": 0.39999999999999997,
+  "audio": "First 0.2 s of silence removed; re-encoded AAC; narration and speed preserved.",
+  "timing": "Phrase-level editorial cues shifted earlier by 0.2 s; numbers normalized for reading.",
+  "builder_sha256": "85cbd77780b5ac6e4cbddd8820c51eea6619749cb3fdb5290792738f629679ff",
   "font_sha256": "fb53504de62e767a54695416123d68d67f71c9b69722175184ad56e7dd13547b"
 }

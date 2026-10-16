@@ -13,6 +13,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE=Path(__file__).resolve().parent
 DISCLAIMER='For educational purposes only · Not financial advice'
+OPENING_TRIM=0.2  # Silent lead-in; speech starts after 0.23 s in this source.
+OPENING_FADE_END=0.6
 
 def stamp(seconds):
     ms=round(seconds*1000)
@@ -30,6 +32,10 @@ def main():
     small=ImageFont.truetype(str(font_path),32)
     assert all(0<=c['start']<c['end']<=duration for c in cues)
     assert all(a['end']<=b['start'] for a,b in zip(cues,cues[1:]))
+    assert 0<=OPENING_TRIM<OPENING_FADE_END<duration
+    duration-=OPENING_TRIM
+    cues=[{**c,'start':round(max(0,c['start']-OPENING_TRIM),3),
+           'end':round(c['end']-OPENING_TRIM,3)} for c in cues if c['end']>OPENING_TRIM]
     with tempfile.TemporaryDirectory(prefix='usdc-captions-') as tmp:
         folder=Path(tmp);inputs=[]
         cards=['']+[c['text'] for c in cues]
@@ -46,14 +52,19 @@ def main():
             draw.text((960,202),DISCLAIMER,font=small,fill='#D8E2EB',anchor='mm')
             png=folder/f'{i:02d}.png';image.save(png)
             inputs+=['-loop','1','-framerate','1','-i',str(png)]
-        filters=['[0:v]fps=30,pad=1920:1320:0:0:color=white[p]',
-                 '[p][1:v]overlay=0:1080[b0]']
+        # Hold the fully visible chart over the remaining fade-in, preserving
+        # the first words instead of cutting the entire 0.6-second animation.
+        filters=[f'[0:v]fps=30,trim=start={OPENING_FADE_END},setpts=PTS-STARTPTS,'
+                 f'tpad=start_duration={OPENING_FADE_END-OPENING_TRIM}:start_mode=clone,'
+                 'pad=1920:1320:0:0:color=white[p]',
+                 '[p][1:v]overlay=0:1080[b0]',
+                 f'[0:a]atrim=start={OPENING_TRIM},asetpts=PTS-STARTPTS[a]']
         for i,c in enumerate(cues):
             filters.append(f"[b{i}][{i+2}:v]overlay=0:1080:enable='gte(t,{c['start']})*lt(t,{c['end']})'[b{i+1}]")
-        subprocess.run(['ffmpeg','-loglevel','error','-y','-i',str(source),*inputs,'-filter_complex',
+        subprocess.run(['ffmpeg','-loglevel','error','-y','-i',str(source),*inputs,'-filter_complex_threads','4','-filter_complex',
                         ';'.join(filters),
-                        '-map',f'[b{len(cues)}]','-map','0:a:0','-c:v','libx264','-crf','18','-preset','medium',
-                        '-r','30','-pix_fmt','yuv420p','-c:a','copy','-t',str(duration),
+                        '-map',f'[b{len(cues)}]','-map','[a]','-c:v','libx264','-crf','18','-preset','medium','-threads','4',
+                        '-r','30','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-t',str(duration),
                         '-movflags','+faststart',str(output)],check=True)
     srt='\n'.join(f'{i+1}\n{stamp(c["start"])} --> {stamp(c["end"])}\n{c["text"]}\n' for i,c in enumerate(cues))
     (HERE/'linkedin_captions.srt').write_text(srt)
@@ -62,7 +73,11 @@ def main():
               'output_sha256':sha(output),'output_resolution':[1920,1320],
               'chart_region':[0,0,1920,1080],'subtitle_region':[0,1080,1920,240],
               'subtitle_font_px':48,'disclaimer_font_px':32,'disclaimer':DISCLAIMER,
-              'audio':'copied unchanged','timing':'Phrase-level editorial cues; numbers normalized for reading.',
+              'opening_trim_seconds':OPENING_TRIM,'opening_full_frame_source_seconds':OPENING_FADE_END,
+              'opening_still_seconds':OPENING_FADE_END-OPENING_TRIM,
+              'audio':'First 0.2 s of silence removed; re-encoded AAC; narration and speed preserved.',
+              'timing':'Phrase-level editorial cues shifted earlier by 0.2 s; numbers normalized for reading.',
+              'builder_sha256':sha(Path(__file__)),
               'font_sha256':sha(font_path)}
     (HERE/'linkedin_video_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     subprocess.run(['ffmpeg','-loglevel','error','-y','-i',str(output),'-ss','6',

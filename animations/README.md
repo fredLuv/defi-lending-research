@@ -17,7 +17,7 @@ The older narrowing-spread result belongs to the [historical V3/V1 notebook](../
 
 The current narration uses **Voicebox's Kokoro backend and the Michael preset**, a synthetic American English male voice, at normal speed. The opening asks “Is stablecoin lending worth it?” The narration uses plain language and identifies the USD 11 example as extra income **relative to the Treasury fund**, conditional on rates staying constant. [Voiceover script](voicebox_narration.json) · [caption text](linkedin_captions.srt) · [suggested LinkedIn wording](linkedin-caption.md).
 
-The LinkedIn export adds a **240-pixel subtitle band below the 1920 × 1080 charts**. It never covers or crops them. A persistent line reads **“For educational purposes only · Not financial advice.”** Output is 1920 × 1320; the Voicebox audio is copied unchanged. Captions are phrase-level editorial cues, not word-level forced alignment.
+The LinkedIn export adds a **240-pixel subtitle band below the 1920 × 1080 charts**. It never covers or crops them. A persistent line reads **“For educational purposes only · Not financial advice.”** Output is 1920 × 1320. The export removes 0.2 seconds of opening silence and shows the fully visible first chart immediately, replacing the remaining fade-in with a still frame. Speech and playback speed are preserved; audio is re-encoded to AAC and captions shift earlier by 0.2 seconds. Captions are phrase-level editorial cues, not word-level forced alignment. Scene times above refer to the original narration timeline.
 
 ## Reproduce
 
