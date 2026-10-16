@@ -1,0 +1,20 @@
+{
+  "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+  "request_started_utc": "2026-10-16T06:03:35.850354+00:00",
+  "retrieved_utc": "2026-10-16T06:03:36.671316+00:00",
+  "source_html_sha256": "ac7096c2ef039d7ea546ee6562ded802b165bd6a1b0c76fd4d42d1922546efea",
+  "extraction": "Numeric fields from issuer product page; full HTML retained only in local cache.",
+  "fields": {
+    "sec_yield": {
+      "value": 0.0374,
+      "as_of": "2026-10-14"
+    },
+    "median_spread": {
+      "value": 0.0001,
+      "as_of": "2026-10-14"
+    },
+    "expense_ratio": {
+      "value": 0.0009
+    }
+  }
+}

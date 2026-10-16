@@ -1,0 +1,19 @@
+1
+00:00:00,200 --> 00:00:02,100
+Is DeFi lending yield worth it?
+
+2
+00:00:02,900 --> 00:00:10,340
+Aave version four quotes five point five percent; Morpho version two, four point five. Both exceed the Treasury fund.
+
+3
+00:00:12,400 --> 00:00:19,400
+For ten thousand dollars over ninety days, Aave adds just eleven dollars after costs, if rates stay constant.
+
+4
+00:00:20,700 --> 00:00:28,260
+April's Aave squeeze was version three. Today's cash balances are shown here, but shared liquidity is not a guaranteed withdrawal.
+
+5
+00:00:32,100 --> 00:00:37,080
+Better tools should show net yield and withdrawal constraints, not just the highest rate.

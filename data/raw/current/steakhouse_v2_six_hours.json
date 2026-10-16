@@ -1,0 +1,16 @@
+{
+  "url": "https://api.morpho.org/v1/vaults-v2/1:0xbeef088055857739C12CD3765F20b7679Def0f51/apy-averages?lookback=six_hours",
+  "method": "GET",
+  "query": null,
+  "request_started_utc": "2026-10-16T06:03:34.548215+00:00",
+  "retrieved_utc": "2026-10-16T06:03:34.810994+00:00",
+  "response": {
+    "data": {
+      "chain_id": 1,
+      "vault_address": "0xbeef088055857739C12CD3765F20b7679Def0f51",
+      "last_indexed_block": "26203175",
+      "lookback": "six_hours",
+      "apy": 0.045493130622933343
+    }
+  }
+}

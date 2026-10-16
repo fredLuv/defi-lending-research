@@ -1,0 +1,10 @@
+{
+  "snapshot_started_utc": "2026-10-16T06:03:32.925619+00:00",
+  "snapshot_finished_utc": "2026-10-16T06:03:36.673724+00:00",
+  "sha256_verified_files": 9,
+  "independently_verified_scenarios": 108,
+  "identities": "Exact Ethereum contracts and native USDC; no V3/V1 substitution",
+  "observed_transaction_costs": false,
+  "guaranteed_withdrawals": false,
+  "forward_return_forecast": false
+}

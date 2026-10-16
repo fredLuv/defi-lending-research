@@ -1,0 +1,11 @@
+{
+  "figures": [
+    "figures/treasury/01_income_vs_treasuries.png",
+    "figures/treasury/02_cost_and_haircut.png",
+    "figures/treasury/03_liquidity_and_stress.png",
+    "figures/treasury/linkedin_treasury_comparison.png"
+  ],
+  "source_manifest": "data/treasury_manifest.json",
+  "cost_scenario": "Base",
+  "return_currency_assumption": "1 USDC = 1 USD"
+}

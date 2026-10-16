@@ -1,0 +1,27 @@
+{
+  "source_sha256": "2375de8a6ba78112a5574abef92b542a0b5cc51cdceb96b0fede221c35c47d61",
+  "captions_sha256": "045f9727359676b600f7c7ba9a45b6a669e588274d4bb794a1fe20b14f8225c6",
+  "output_sha256": "94144b404b2423973a90866746dcae20a51f9ebe6785200e5b7c4e165fbb4f25",
+  "output_resolution": [
+    1920,
+    1320
+  ],
+  "chart_region": [
+    0,
+    0,
+    1920,
+    1080
+  ],
+  "subtitle_region": [
+    0,
+    1080,
+    1920,
+    240
+  ],
+  "subtitle_font_px": 48,
+  "disclaimer_font_px": 32,
+  "disclaimer": "For educational purposes only \u00b7 Not financial advice",
+  "audio": "copied unchanged",
+  "timing": "Phrase-level editorial cues; numbers normalized for reading.",
+  "font_sha256": "fb53504de62e767a54695416123d68d67f71c9b69722175184ad56e7dd13547b"
+}

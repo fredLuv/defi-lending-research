@@ -1,0 +1,19 @@
+1
+00:00:00,200 --> 00:00:11,087
+I compared U S D C lending with a Treasury bill fund. Under base cost assumptions, ten thousand dollars earned just fifty-eight to eighty-five dollars extra over eight hundred and sixty-six days.
+
+2
+00:00:13,600 --> 00:00:15,514
+Higher costs erased that advantage.
+
+3
+00:00:19,000 --> 00:00:22,117
+Earning interest doesn't guarantee immediate access to your money.
+
+4
+00:00:23,800 --> 00:00:29,075
+Here, Aave's available cash fell sharply. That's a withdrawal constraint, not a measured loss.
+
+5
+00:00:32,100 --> 00:00:37,667
+Better interfaces should compare net yield, explain withdrawal risk, and reduce avoidable costs.

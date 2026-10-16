@@ -1,0 +1,10 @@
+[
+  {"start":0.2,"end":2.8,"text":"Is DeFi lending yield worth it?"},
+  {"start":2.9,"end":6.0,"text":"Aave V4: near 5.5%. Selected Morpho V2 vaults: near 4.5%."},
+  {"start":6.0,"end":11.8,"text":"Both exceed this Treasury fund's income yield.\nDifferent rate conventions—not guaranteed future returns."},
+  {"start":12.4,"end":16.8,"text":"USD 10,000 for 90 days: about USD 11 extra for Aave after costs."},
+  {"start":16.8,"end":19.9,"text":"If rates stay constant. This is an illustration, not a forecast."},
+  {"start":20.7,"end":24.7,"text":"April's Aave liquidity squeeze was V3—not V4."},
+  {"start":24.7,"end":30.8,"text":"Today's liquidity is shared, not a guaranteed withdrawal."},
+  {"start":32.1,"end":38.0,"text":"Better tools should show net yield and withdrawal constraints,\nnot just the highest rate."}
+]

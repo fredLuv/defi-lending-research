@@ -1,0 +1,7 @@
+product,regime,n,median_capacity_pct,below_25pct_count
+aave,ETH daily decline >=7%,24,15.841854011734252,17
+aave,Other days,842,14.926448969999209,703
+gauntlet_v1,ETH daily decline >=7%,24,61.15895623052948,0
+gauntlet_v1,Other days,842,59.13463098557577,12
+steakhouse_v1,ETH daily decline >=7%,24,24.59379902245759,13
+steakhouse_v1,Other days,842,23.984854775674037,444

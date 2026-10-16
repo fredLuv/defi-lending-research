@@ -1,0 +1,21 @@
+{
+  "url": "https://api.morpho.org/v1/vaults-v2/1:0x8c106EEDAd96553e64287A5A6839c3Cc78afA3D0/state",
+  "method": "GET",
+  "query": null,
+  "request_started_utc": "2026-10-16T06:03:35.079703+00:00",
+  "retrieved_utc": "2026-10-16T06:03:35.339245+00:00",
+  "response": {
+    "data": {
+      "chain_id": 1,
+      "address": "0x8c106EEDAd96553e64287A5A6839c3Cc78afA3D0",
+      "last_indexed_block": "26203175",
+      "last_accrual_timestamp": 1792130616,
+      "total_assets": "119071399869722",
+      "total_supply": "114594313580670699532474739",
+      "withdrawable_assets": "33765907963386",
+      "allocated_assets": "119071399869722",
+      "idle_assets": "0",
+      "share_price_ray": "1039069009178186988293019116"
+    }
+  }
+}

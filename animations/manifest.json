@@ -1,0 +1,40 @@
+{
+  "engine": "ManimGX",
+  "version": "0.1.1",
+  "python": "3.14.3",
+  "duration_seconds": 38.1,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "render_command_wall_seconds": 3.491,
+  "input_sha256": {
+    "reports/current_rates.csv": "4e5db417bcea5716678effec5e2144b539278199583f13fedfcf57afef598e2f",
+    "reports/current_scenarios.csv": "f79d01160a7aed73ab948a32c229def642e64cc1adc55c654551295a7a165be5",
+    "data/current_manifest.json": "8859ea427634f86b3bcde93557f7e3b4df20657da1b23108188cbaea43a3d49f",
+    "data/processed/daily_panel.csv": "237fe7c2288d993bbda6ab19c5e636cf628bd1771b356ed70652610b643b3ad9",
+    "animations/lending_story.py": "5296763f0b099f4fa6c9834344f58ea42d07046a743baafa054ee8e7d318d3b8",
+    "animations/requirements.lock": "69b31486dfbce28f7bccaf35417da613a199af9cc667da6995f567425a5530ad"
+  },
+  "video_sha256": "4f6728df95f541fe3b986280ee7dfaca24e1bfffd4a1530fc97e9f3b6a01edea",
+  "current_quote_rates": {
+    "aave_v4": 0.0545323349283766,
+    "steakhouse_v2": 0.045493130622933343,
+    "gauntlet_v2": 0.04527513557091883,
+    "sgov": 0.0374
+  },
+  "ninety_day_base_extra_usd": {
+    "aave_v4": 10.757916993701656,
+    "steakhouse_v2": -10.683041495256475,
+    "gauntlet_v2": -11.20184682139552
+  },
+  "snapshot_finished_utc": "2026-10-16T06:03:36.673724+00:00",
+  "historical_aave_v3_cash_usdc": 6519.18461,
+  "sources": [
+    "../docs/DATA_SOURCES.md#current-v4v2-snapshot",
+    "../data/current_manifest.json",
+    "../data/manifest.json"
+  ],
+  "interpretation": "Current V4/V2 quotes use different rate windows from SGOV SEC yield. Cost scenarios are not forecasts. April V3 cash is separate historical context; capacity is not guaranteed withdrawal."
+}

@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-16T06:03:32.925619+00:00",
+  "finished_utc": "2026-10-16T06:03:36.673724+00:00",
+  "selection": "Ethereum native USDC; Aave V4 Core/Main; two named Morpho Vaults V2; SGOV income proxy",
+  "block_pinning": "Aave is not block-pinned. Morpho indexed blocks retained per endpoint; requests are sequential, not atomic.",
+  "inputs": {
+    "data/raw/current/aave_v4.json": "38c4d24ed75e187c6c0d8b9fa4b32dcf3f67fc159ad5b153704815637fb3bc9c",
+    "data/raw/current/gauntlet_v2_six_hours.json": "cc919fa75e97e973a3abd3bdcecc0de636dad5f1653a2e6949c783f6e8827eaf",
+    "data/raw/current/gauntlet_v2_state.json": "516f70ac6b1656356d33e743ec5d3ce082a78960690f831589d6dcb963831744",
+    "data/raw/current/gauntlet_v2_thirty_days.json": "b8fdbdde1c7ff9ee3ad0616996cb5e04003c5ba3d9e6b58bd47e8801135e6eb3",
+    "data/raw/current/morpho_v2_directory.json": "acb237457744cdba2bb7a6618328746a6edbaf332ab4dd250d78db10fdc8e48a",
+    "data/raw/current/sgov_quote.json": "22bb5f8282f1acc5633063e6bb1a32adc5a52cc3fa1cf0bf103ab80cad1105d6",
+    "data/raw/current/steakhouse_v2_six_hours.json": "a809197de67a5a3ce446eaa6d9c9839e26654c2af5157d2537d67c2e74429a92",
+    "data/raw/current/steakhouse_v2_state.json": "d8797af4bf41c7aac5147bc97542273eef3bd1e2e5a721013c0632530e4c3929",
+    "data/raw/current/steakhouse_v2_thirty_days.json": "58b788c7f77e8097d19cd2da12a99809fdb214feda143be840addd989f83036b"
+  },
+  "protocol_sha256": "0848c2aa0c778b58904c87f541aa0d02796bffeb6181d615e40b7dba0f825385"
+}

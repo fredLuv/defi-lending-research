@@ -1,0 +1,10 @@
+{
+  "retrieved_at": "2026-10-15T21:23:52.349650+00:00",
+  "protocol_sha256": "105281ad9c7d581b32193ba4153305a202f85953fa0e685a8981a5af4c4951cc",
+  "files": [
+    {
+      "path": "data/raw/treasury/sgov.json",
+      "sha256": "f6cef08025e5d03ccdcce859e9001eb93d6491c3a4ce833549145e4a7075a77a"
+    }
+  ]
+}

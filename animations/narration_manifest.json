@@ -1,0 +1,42 @@
+{
+  "voice": "macOS Samantha (synthetic)",
+  "rate_words_per_minute": 185,
+  "source_video_sha256": "db9c02d38e10ea696907c75fb0bf9c3af7c930de27b50cbab43024625dae3c57",
+  "script_sha256": "9ebe30613735e3bf927d39105626b469da9c84391b5f133566f901419847fa71",
+  "output_sha256": "49bca0b5e75e043ac3e241d0c2783b2b1b650aa7b9291f0c055c377597c8f80d",
+  "segments": [
+    {
+      "start": 0.2,
+      "end": 12.5,
+      "text": "I compared U S D C lending with a Treasury bill fund. Under base cost assumptions, ten thousand dollars earned just fifty-eight to eighty-five dollars extra over eight hundred and sixty-six days.",
+      "duration_seconds": 10.887029
+    },
+    {
+      "start": 13.6,
+      "end": 17.5,
+      "text": "Higher costs erased that advantage.",
+      "duration_seconds": 1.91356
+    },
+    {
+      "start": 19.0,
+      "end": 23.6,
+      "text": "Earning interest doesn't guarantee immediate access to your money.",
+      "duration_seconds": 3.117098
+    },
+    {
+      "start": 23.8,
+      "end": 30.6,
+      "text": "Here, Aave's available cash fell sharply. That's a withdrawal constraint, not a measured loss.",
+      "duration_seconds": 5.275465
+    },
+    {
+      "start": 32.1,
+      "end": 38.0,
+      "text": "Better interfaces should compare net yield, explain withdrawal risk, and reduce avoidable costs.",
+      "duration_seconds": 5.566621
+    }
+  ],
+  "video_stream": "copied unchanged",
+  "audio": "AAC; -16 LUFS target, -1.5 dBTP ceiling",
+  "note": "Voice rendering can differ by macOS version. Silent original is preserved."
+}

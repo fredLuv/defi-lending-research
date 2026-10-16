@@ -1,0 +1,2407 @@
+{
+  "url": "https://api.v4.aave.com/graphql",
+  "method": "POST",
+  "query": "{ reserves(request:{query:{chainIds:[1]},filter:SUPPLY,orderBy:{assetName:ASC}}) {\n id onChainId chain {chainId name} spoke {name address} status {active paused frozen}\n summary {supplyApy {value normalized} supplied {amount {value}}}\n asset {onchainAssetId underlying {address info {symbol decimals}} hub {name address}\n summary {availableLiquidity {amount {value}} supplied {amount {value}} utilizationRate {value}}}\n}}",
+  "request_started_utc": "2026-10-16T06:03:32.926215+00:00",
+  "retrieved_utc": "2026-10-16T06:03:33.292662+00:00",
+  "response": {
+    "data": {
+      "reserves": [
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo1",
+          "onChainId": "5",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "21439.510389187983504613"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "15",
+            "underlying": {
+              "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+              "info": {
+                "symbol": "AAVE",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "21352.070174317827578006"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "21352.070174317827578006"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo2",
+          "onChainId": "6",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "661598.110467290182040763"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "16",
+            "underlying": {
+              "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+              "info": {
+                "symbol": "LINK",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "651445.506610405086585392"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "651445.506610405086585392"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo0",
+          "onChainId": "4",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000074482003328506611076811",
+              "normalized": "0.007448200332850661107681100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "149.11405383"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "12",
+            "underlying": {
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "info": {
+                "symbol": "cbBTC",
+                "decimals": 8
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "145.40579368"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "149.11403922"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.024869644440701710194754930"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "171.41090687"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "info": {
+                "symbol": "cbBTC",
+                "decimals": 8
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "168.53838775"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "168.53838775"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhEOEI5MzYzNWI4QzZkMGZGOThDYkU5MGI1OTg4RTNGMmQxQ2Q5ZGExOjow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Forex",
+            "address": "0xD8B93635b8C6d0fF98CbE90b5988E3F2d1Cd9da1"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.021895505076681812163869201",
+              "normalized": "2.189550507668181216386920100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "1080634.790603"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "10",
+            "underlying": {
+              "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+              "info": {
+                "symbol": "EURC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "465666.381681"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "1249596.061448"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.627626075417399503500342519"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo5",
+          "onChainId": "9",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.021895505076681812163869201",
+              "normalized": "2.189550507668181216386920100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "168960.264719"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "10",
+            "underlying": {
+              "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+              "info": {
+                "symbol": "EURC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "465666.381681"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "1249596.061448"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.627626075417399503500342519"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1OjoxMg==",
+          "onChainId": "12",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.027301168501348705865980163",
+              "normalized": "2.730116850134870586598016300"
+            },
+            "supplied": {
+              "amount": {
+                "value": "28495286.683900557816176779"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "9",
+            "underlying": {
+              "address": "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+              "info": {
+                "symbol": "frxUSD",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "3718375.197774268877855871"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "28512328.041125169795060315"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.870979799901304041493063358"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojo2",
+          "onChainId": "6",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.032902986076073631783472423",
+              "normalized": "3.290298607607363178347242300"
+            },
+            "supplied": {
+              "amount": {
+                "value": "607115.221664120899052756"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "6",
+            "underlying": {
+              "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+              "info": {
+                "symbol": "GHO",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "61341.851042031683572264"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "607115.221664120899052756"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.900173642780269178364539574"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1OjoxMw==",
+          "onChainId": "13",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.058665407389779831821418129",
+              "normalized": "5.866540738977983182141812900"
+            },
+            "supplied": {
+              "amount": {
+                "value": "691069.594918574401708229"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "6",
+            "underlying": {
+              "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+              "info": {
+                "symbol": "GHO",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "62444.114208206023532501"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "691282.506236952633278300"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.911473461783983238314389916"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiYTFCM0Q1NUQyNDk2OTJiNjY5QTE2NDAyNEE4MzgzMDlCNzUwOEFGOjo2",
+          "onChainId": "6",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Ecosystem",
+            "address": "0xba1B3D55D249692b669A164024A838309B7508AF"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.017026840797994009969653711",
+              "normalized": "1.702684079799400996965371100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "50777.320990936474708129"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "5",
+            "underlying": {
+              "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+              "info": {
+                "symbol": "GHO",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "19693.740097711091705385"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "50777.320990936474708129"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.612690999638512598250947290"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1OjoxMQ==",
+          "onChainId": "11",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.026624295924656637304903314",
+              "normalized": "2.662429592465663730490331400"
+            },
+            "supplied": {
+              "amount": {
+                "value": "78988059.510379"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "8",
+            "underlying": {
+              "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "info": {
+                "symbol": "USDG",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "11157732.988611"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "79155461.400074"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.860125170925009585039436863"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhBRDc1Y0U2MzU0Zjg3RjMxMzVjRTEwNjIxZDM4NWQ4RDFlMjU2MkMyOjox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "PAXG Gold",
+            "address": "0xAD75cE6354f87F3135cE10621d385d8D1e2562C2"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.177540508587373512365551803",
+              "normalized": "17.754050858737351236555180300"
+            },
+            "supplied": {
+              "amount": {
+                "value": "209063.797134"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "3",
+            "underlying": {
+              "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "info": {
+                "symbol": "USDG",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "563094.391651"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "34522742.035417"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.984896421004688395411277045"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg3NzRiOTY1NTQxM2MzNDgwOWMxZjFiMTZiNjU0NDY1QTg5RUJFOTg5Ojow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Maple SyrupUSDG",
+            "address": "0x774b9655413c34809c1f1b16b654465A89EBE989"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.177540508587373512365551803",
+              "normalized": "17.754050858737351236555180300"
+            },
+            "supplied": {
+              "amount": {
+                "value": "34153694.863851"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "3",
+            "underlying": {
+              "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+              "info": {
+                "symbol": "USDG",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "563094.391651"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "34522742.035417"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.984896421004688395411277045"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg3RUM2OGI1Njk1ZTgwM2U5OGEyMWE5QTA1ZDc0NEYyOGIwYTc3NTNEOjow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Lombard",
+            "address": "0x7EC68b5695e803e98a21a9A05d744F28b0a7753D"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "9.42994393"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "13",
+            "underlying": {
+              "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+              "info": {
+                "symbol": "LBTC",
+                "decimals": 8
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "9.42994393"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "9.42994393"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhBRDc1Y0U2MzU0Zjg3RjMxMzVjRTEwNjIxZDM4NWQ4RDFlMjU2MkMyOjow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "PAXG Gold",
+            "address": "0xAD75cE6354f87F3135cE10621d385d8D1e2562C2"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "679.174287809964056166"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "5",
+            "underlying": {
+              "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+              "info": {
+                "symbol": "PAXG",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "679.174287809964056166"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "679.174287809964056166"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1OjoxMA==",
+          "onChainId": "10",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.023139501346405954044200774",
+              "normalized": "2.313950134640595404420077400"
+            },
+            "supplied": {
+              "amount": {
+                "value": "71.613861631644699986"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "7",
+            "underlying": {
+              "address": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+              "info": {
+                "symbol": "RLUSD",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "17.522588385418643774"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "71.613861631644699986"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.756796920724485109033212220"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg1ODEzMUU3OTUzMWNhQjFkNTIzMDEyMjhkMWY3Yjg0MkYyNkI5NjQ5Ojoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Correlated",
+            "address": "0x58131E79531caB1d52301228d1f7b842F26B9649"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "4.570377124499159829"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+              "info": {
+                "symbol": "sUSDe",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "3713836.996852894944371313"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "3713836.996852894944371313"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiYTFCM0Q1NUQyNDk2OTJiNjY5QTE2NDAyNEE4MzgzMDlCNzUwOEFGOjoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Ecosystem",
+            "address": "0xba1B3D55D249692b669A164024A838309B7508AF"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "3713832.426475770445211484"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+              "info": {
+                "symbol": "sUSDe",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "3713836.996852894944371313"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "3713836.996852894944371313"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg2NTQwN2I5NDA5NjY5NTRiMjNkZkEzY2FBNUMwNzAyYkI0Mjk4NERDOjow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Gold",
+            "address": "0x65407b940966954b23dfA3caA5C0702bB42984DC"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "1450.881471"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "14",
+            "underlying": {
+              "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+              "info": {
+                "symbol": "XAUt",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "1438.323429"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "1438.323429"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhEOEI5MzYzNWI4QzZkMGZGOThDYkU5MGI1OTg4RTNGMmQxQ2Q5ZGExOjoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Forex",
+            "address": "0xD8B93635b8C6d0fF98CbE90b5988E3F2d1Cd9da1"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.030327928123626001101119840",
+              "normalized": "3.032792812362600110111984000"
+            },
+            "supplied": {
+              "amount": {
+                "value": "6368881.190594"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "4",
+            "underlying": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "info": {
+                "symbol": "USDT",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "4880101.268904"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "27629326.733123"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.824144679676503921623649315"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiYTFCM0Q1NUQyNDk2OTJiNjY5QTE2NDAyNEE4MzgzMDlCNzUwOEFGOjo1",
+          "onChainId": "5",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Ecosystem",
+            "address": "0xba1B3D55D249692b669A164024A838309B7508AF"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.035445221890994526569300885",
+              "normalized": "3.544522189099452656930088500"
+            },
+            "supplied": {
+              "amount": {
+                "value": "3015715.502152"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "6",
+            "underlying": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "info": {
+                "symbol": "USDT",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "287759.318507"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "3015715.502152"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.905891594072702363201263540"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojo1",
+          "onChainId": "5",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.032833749679352042482244416",
+              "normalized": "3.283374967935204248224441600"
+            },
+            "supplied": {
+              "amount": {
+                "value": "2946012.618308"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "5",
+            "underlying": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "info": {
+                "symbol": "USDT",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "424227.916769"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "2946017.770380"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.857158425631299784365384430"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo4",
+          "onChainId": "8",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.030327928123626001101119840",
+              "normalized": "3.032792812362600110111984000"
+            },
+            "supplied": {
+              "amount": {
+                "value": "21248699.090100"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "4",
+            "underlying": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "info": {
+                "symbol": "USDT",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "4880101.268904"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "27629326.733123"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.824144679676503921623649315"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NTZkOGUwQTg5Y2ZhMzc0NDQyOEM0NjQxYjVhNTNCNTYxNjdhN2Y5Ojoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "USDG Pendle",
+            "address": "0x956d8e0A89cfa3744428C4641b5a53B56167a7f9"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.248943715668451506593713465",
+              "normalized": "24.894371566845150659371346500"
+            },
+            "supplied": {
+              "amount": {
+                "value": "1633.681236"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "info": {
+                "symbol": "USDT",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "0.006536"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "1633.681236"
+                }
+              },
+              "utilizationRate": {
+                "value": "1.008195778254849745437482838"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhEOEI5MzYzNWI4QzZkMGZGOThDYkU5MGI1OTg4RTNGMmQxQ2Q5ZGExOjox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Forex",
+            "address": "0xD8B93635b8C6d0fF98CbE90b5988E3F2d1Cd9da1"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.054532334928376599971245901",
+              "normalized": "5.453233492837659997124590100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "8053292.678265"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "5",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "2455908.019771"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "32928636.297298"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.926235422917498085143619305"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojo0",
+          "onChainId": "4",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.041436601492426438353031566",
+              "normalized": "4.143660149242643835303156600"
+            },
+            "supplied": {
+              "amount": {
+                "value": "7739293.997542"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "4",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "693025.783523"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "7739304.017020"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.911604034391306316726938240"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg3NzRiOTY1NTQxM2MzNDgwOWMxZjFiMTZiNjU0NDY1QTg5RUJFOTg5Ojoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Maple SyrupUSDG",
+            "address": "0x774b9655413c34809c1f1b16b654465A89EBE989"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.035937044174497348720608961",
+              "normalized": "3.593704417449734872060896100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "10.126672"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "1",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "297931.489998"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "2838069.883705"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.895988630563849362961892544"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NTZkOGUwQTg5Y2ZhMzc0NDQyOEM0NjQxYjVhNTNCNTYxNjdhN2Y5Ojox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "USDG Pendle",
+            "address": "0x956d8e0A89cfa3744428C4641b5a53B56167a7f9"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.035937044174497348720608961",
+              "normalized": "3.593704417449734872060896100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "2838059.757032"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "1",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "297931.489998"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "2838069.883705"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.895988630563849362961892544"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiYTFCM0Q1NUQyNDk2OTJiNjY5QTE2NDAyNEE4MzgzMDlCNzUwOEFGOjo0",
+          "onChainId": "4",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Ecosystem",
+            "address": "0xba1B3D55D249692b669A164024A838309B7508AF"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.034316472351291679998474425",
+              "normalized": "3.431647235129167999847442500"
+            },
+            "supplied": {
+              "amount": {
+                "value": "2991986.218607"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "4",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "327969.093419"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "2991986.218607"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.891514848633631710436884083"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojo3",
+          "onChainId": "7",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.054532334928376599971245901",
+              "normalized": "5.453233492837659997124590100"
+            },
+            "supplied": {
+              "amount": {
+                "value": "25106516.916986"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "5",
+            "underlying": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "info": {
+                "symbol": "USDC",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "2455908.019771"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "32928636.297298"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.926235422917498085143619305"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiYTFCM0Q1NUQyNDk2OTJiNjY5QTE2NDAyNEE4MzgzMDlCNzUwOEFGOjoz",
+          "onChainId": "3",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Ecosystem",
+            "address": "0xba1B3D55D249692b669A164024A838309B7508AF"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000014622043704096044221059",
+              "normalized": "0.001462204370409604422105900"
+            },
+            "supplied": {
+              "amount": {
+                "value": "26684016.745722072244712255"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "3",
+            "underlying": {
+              "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+              "info": {
+                "symbol": "USDe",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "26677647.948659677316226853"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "26684284.632276071858964591"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000295388990525504141910844"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg1ODEzMUU3OTUzMWNhQjFkNTIzMDEyMjhkMWY3Yjg0MkYyNkI5NjQ5Ojoz",
+          "onChainId": "3",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Ethena Correlated",
+            "address": "0x58131E79531caB1d52301228d1f7b842F26B9649"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000014622043704096044221059",
+              "normalized": "0.001462204370409604422105900"
+            },
+            "supplied": {
+              "amount": {
+                "value": "315.428904476233919244"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "3",
+            "underlying": {
+              "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+              "info": {
+                "symbol": "USDe",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Plus",
+              "address": "0x06002e9c4412CB7814a791eA3666D905871E536A"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "26677647.948659677316226853"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "26684284.632276071858964591"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000295388990525504141910844"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "370.58538100"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "1",
+            "underlying": {
+              "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+              "info": {
+                "symbol": "WBTC",
+                "decimals": 8
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "356.04866457"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "356.04866457"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojoz",
+          "onChainId": "3",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000048061281891976867937482",
+              "normalized": "0.004806128189197686793748200"
+            },
+            "supplied": {
+              "amount": {
+                "value": "496.37906738"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "11",
+            "underlying": {
+              "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+              "info": {
+                "symbol": "WBTC",
+                "decimals": 8
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "485.34146199"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "494.10474302"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.017737615575905524359687474"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.016548748591904926041206936",
+              "normalized": "1.654874859190492604120693600"
+            },
+            "supplied": {
+              "amount": {
+                "value": "44993.518568661001953593"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "0",
+            "underlying": {
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "info": {
+                "symbol": "WETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "4535.691967887697639790"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "44564.409437152494614727"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.898926567744040844656835043"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "2791.466786412953097651"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "0",
+            "underlying": {
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "info": {
+                "symbol": "WETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "2738.527200674205464940"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "2738.527200674205464940"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhiRjEwQkRmRTE3N2RFMDMzNmFGRDdmY0NGODBBOTA0RTE1Mzg2MjE5Ojow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Etherfi",
+            "address": "0xbF10BDfE177dE0336aFD7fcCF80A904E15386219"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "38504.215170217273550611"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+              "info": {
+                "symbol": "weETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "51605.134869119043608806"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "51605.134869119043608806"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojoy",
+          "onChainId": "2",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "14007.503480038121802648"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "2",
+            "underlying": {
+              "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+              "info": {
+                "symbol": "weETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "51605.134869119043608806"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "51605.134869119043608806"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NzNhMDIzQTc3NDIwYmE2MTBmMDZiMzg1OGFEOTkxRGY2ZDg1QTA4Ojoz",
+          "onChainId": "3",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Bluechip",
+            "address": "0x973a023A77420ba610f06b3858aD991Df6d85A08"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "6296.661456054109367216"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "3",
+            "underlying": {
+              "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+              "info": {
+                "symbol": "wstETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Prime",
+              "address": "0x943827DCA022D0F354a8a8c332dA1e5Eb9f9F931"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "6290.389679238327741991"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "6290.389679238327741991"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg5NGU3QTVkQ2JFODE2ZTQ5OGI4OWFCNzUyNjYxOTA0RTJGNTZjNDg1Ojox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Main",
+            "address": "0x94e7A5dCbE816e498b89aB752661904E2F56c485"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "13521.665160319420665565"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "1",
+            "underlying": {
+              "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+              "info": {
+                "symbol": "wstETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "13559.488254056322768851"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "13559.488254056322768851"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHhlMTkwMDQ4MGFjNjlmMEIyOTY4NDFDZDAxY0MzNzU0NmQ5MkYzNUNkOjow",
+          "onChainId": "0",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Lido",
+            "address": "0xe1900480ac69f0B296841Cd01cC37546d92F35Cd"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "37.823093736902103286"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "1",
+            "underlying": {
+              "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+              "info": {
+                "symbol": "wstETH",
+                "decimals": 18
+              }
+            },
+            "hub": {
+              "name": "Core",
+              "address": "0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "13559.488254056322768851"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "13559.488254056322768851"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "MTo6MHg3NzRiOTY1NTQxM2MzNDgwOWMxZjFiMTZiNjU0NDY1QTg5RUJFOTg5Ojox",
+          "onChainId": "1",
+          "chain": {
+            "chainId": 1,
+            "name": "Ethereum"
+          },
+          "spoke": {
+            "name": "Maple SyrupUSDG",
+            "address": "0x774b9655413c34809c1f1b16b654465A89EBE989"
+          },
+          "status": {
+            "active": true,
+            "paused": false,
+            "frozen": false
+          },
+          "summary": {
+            "supplyApy": {
+              "value": "0.000000000000000000000000000",
+              "normalized": "0"
+            },
+            "supplied": {
+              "amount": {
+                "value": "49587952.879118"
+              }
+            }
+          },
+          "asset": {
+            "onchainAssetId": "4",
+            "underlying": {
+              "address": "0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A",
+              "info": {
+                "symbol": "syrupUSDG",
+                "decimals": 6
+              }
+            },
+            "hub": {
+              "name": "Global Dollar",
+              "address": "0x62d63197660c080236193CA60b70E49A08E90368"
+            },
+            "summary": {
+              "availableLiquidity": {
+                "amount": {
+                  "value": "49587952.879118"
+                }
+              },
+              "supplied": {
+                "amount": {
+                  "value": "49587952.879118"
+                }
+              },
+              "utilizationRate": {
+                "value": "0.000000000000000000000000000"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

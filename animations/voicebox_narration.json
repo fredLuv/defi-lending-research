@@ -1,0 +1,27 @@
+[
+  {
+    "start": 0.2,
+    "end": 2.8,
+    "text": "Is DeFi lending yield worth it?"
+  },
+  {
+    "start": 2.9,
+    "end": 11.8,
+    "text": "Aave version four quotes five point five percent; Morpho version two, four point five. Both exceed the Treasury fund."
+  },
+  {
+    "start": 12.4,
+    "end": 19.9,
+    "text": "For ten thousand dollars over ninety days, Aave adds just eleven dollars after costs, if rates stay constant."
+  },
+  {
+    "start": 20.7,
+    "end": 30.8,
+    "text": "April's Aave squeeze was version three. Today's cash balances are shown here, but shared liquidity is not a guaranteed withdrawal."
+  },
+  {
+    "start": 32.1,
+    "end": 38.0,
+    "text": "Better tools should show net yield and withdrawal constraints, not just the highest rate."
+  }
+]

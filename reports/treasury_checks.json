@@ -1,0 +1,11 @@
+{
+  "daily_anchors": 867,
+  "first_nav_date": "2024-05-31",
+  "last_nav_date": "2026-10-14",
+  "monthly_checks": 28,
+  "max_monthly_difference_pp": 0.0008526037924118102,
+  "independent_decimal_multiple": "1.104060821250824609422371062621767948429",
+  "no_future_valuations": true,
+  "usdc_usd_assumption": 1,
+  "years": 2.372602739726027
+}
