@@ -1,9 +1,9 @@
-I compared current USDC lending yields on Aave V4 and two Morpho V2 vaults with a short-term Treasury ETF.
+I compared lending USDC—a digital token designed to track the US dollar—with a short-term Treasury fund.
 
-Their quoted rates were higher, but costs and holding periods affected the net advantage. Withdrawal access also matters: reported liquidity is not a guarantee of immediate cash.
+Aave V4 and two Morpho V2 lending options quoted higher rates. But fees, how long you invest, and getting your money back all matter.
 
-Better interfaces should help users compare net yield for their deposit size and holding period, alongside withdrawal constraints.
+Better apps should clearly show earnings after fees and what could delay getting your money back.
 
-Notebook, code and source data: https://github.com/fredLuv/defi-lending-research
+Notebook, code and data: https://github.com/fredLuv/defi-lending-research
 
 For educational purposes only. Not financial advice.

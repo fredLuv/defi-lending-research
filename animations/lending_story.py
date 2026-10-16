@@ -95,9 +95,9 @@ class LendingStory(m.Scene):
                   text('This was not V4. Cash scarcity is not evidence of a realized USDC loss.',0,-3.1,19,MUTED))
         self.play(m.FadeIn(frame),run_time=.6);self.wait(9.8);self.play(m.FadeOut(frame),run_time=.6)
         # 31.3–38.1: a concise product conclusion.
-        closing=m.VGroup(text('Compare net yield. Check your exit.',0,2.4,42),
+        closing=m.VGroup(text('Earnings after fees. Access to your money.',0,2.4,38),
             text('Your amount. Your holding period.',0,.8,32),
-            text('Clear withdrawal constraints.',0,.05,30),
+            text('Know how to get your money back.',0,.05,30),
             text('Notebook · code · data',0,-1.4,23,MUTED),
             text('github.com/fredLuv/defi-lending-research',0,-2.15,30,'#3476A8'))
         self.play(m.FadeIn(closing),run_time=.8);self.wait(6)

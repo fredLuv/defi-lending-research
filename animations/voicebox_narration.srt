@@ -1,19 +1,19 @@
 1
-00:00:00,200 --> 00:00:02,100
-Is DeFi lending yield worth it?
+00:00:00,200 --> 00:00:02,200
+Is lending digital dollars worth it?
 
 2
-00:00:02,900 --> 00:00:10,340
-Aave version four quotes five point five percent; Morpho version two, four point five. Both exceed the Treasury fund.
+00:00:02,900 --> 00:00:10,220
+These Aave and Morpho products quote higher rates than a short-term Treasury fund. But fees and access to your money matter.
 
 3
-00:00:12,400 --> 00:00:19,400
-For ten thousand dollars over ninety days, Aave adds just eleven dollars after costs, if rates stay constant.
+00:00:12,400 --> 00:00:18,440
+Over ninety days, Aave earns eleven dollars more than the Treasury fund after fees, if rates hold.
 
 4
-00:00:20,700 --> 00:00:28,260
-April's Aave squeeze was version three. Today's cash balances are shown here, but shared liquidity is not a guaranteed withdrawal.
+00:00:20,700 --> 00:00:29,600
+April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.
 
 5
-00:00:32,100 --> 00:00:37,080
-Better tools should show net yield and withdrawal constraints, not just the highest rate.
+00:00:32,100 --> 00:00:36,840
+Better apps should explain earnings after fees, and how easily you can get your money back.

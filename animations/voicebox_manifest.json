@@ -18,47 +18,42 @@
     {
       "start": 0.2,
       "end": 2.8,
-      "text": "Is DeFi lending yield worth it?",
-      "duration_seconds": 1.9,
-      "wav_sha256": "184502c8b9d22b3ddfedd8fc58c403130e73202cd6c6ee2f2600662d3fb7a6e6"
+      "text": "Is lending digital dollars worth it?",
+      "duration_seconds": 2.0,
+      "wav_sha256": "b532471923b61dc1b7536092b79ace61987db01781570c590a1d7d3828f6231e"
     },
     {
       "start": 2.9,
       "end": 11.8,
-      "text": "Aave version four quotes five point five percent; Morpho version two, four point five. Both exceed the Treasury fund.",
-      "duration_seconds": 7.44,
-      "wav_sha256": "799aabbd143bedaf91fa32e9ca43949fd29a2e54079e1b75daaba0652d0ca09c"
+      "text": "These Aave and Morpho products quote higher rates than a short-term Treasury fund. But fees and access to your money matter.",
+      "duration_seconds": 7.32,
+      "wav_sha256": "8d0c4c8d0e23e38c636538885f71ade675c431367435b811e33427886123272e"
     },
     {
       "start": 12.4,
       "end": 19.9,
-      "text": "For ten thousand dollars over ninety days, Aave adds just eleven dollars after costs, if rates stay constant.",
-      "duration_seconds": 7.0,
-      "wav_sha256": "e11bf24e06ddb3d1447197c5f2758174a243374244ae28293e5200d6bc32a5c3"
+      "text": "Over ninety days, Aave earns eleven dollars more than the Treasury fund after fees, if rates hold.",
+      "duration_seconds": 6.04,
+      "wav_sha256": "7920b7a4f1bd43f102228e5c51d7c1b7f95b7b1b7ed4ecb86c5c1a6aaa7060a4"
     },
     {
       "start": 20.7,
       "end": 30.8,
-      "text": "April's Aave squeeze was version three. Today's cash balances are shown here, but shared liquidity is not a guaranteed withdrawal.",
-      "duration_seconds": 7.56,
-      "wav_sha256": "fd0b1d09b24cfcf5cec44faa202a8655b546c06c50495b606f808c83ae6ae660"
+      "text": "April's example used Aave version three. Today's products are different. Available cash is shared, so immediate withdrawals aren't guaranteed.",
+      "duration_seconds": 8.9,
+      "wav_sha256": "6b4e88c9e0ef9638fa0add9289bf81f923b36e935fb1e2c958b95bfdd5991d80"
     },
     {
       "start": 32.1,
       "end": 38.0,
-      "text": "Better tools should show net yield and withdrawal constraints, not just the highest rate.",
-      "duration_seconds": 4.98,
-      "wav_sha256": "21f89ab80129c2169378a7adbdba1239b5736e1d3cb3d6cc2a58c0d8df0f6228"
+      "text": "Better apps should explain earnings after fees, and how easily you can get your money back.",
+      "duration_seconds": 4.74,
+      "wav_sha256": "b3d87fe4de2efc6a9d760e99f79ad33ee9316a641561705717be560b8b25577e"
     }
   ],
-  "source_video_sha256": "4c6fab4e7f938563813232d90daf24be8da62cea7e7e4186506d1a1cd6a53102",
-  "output_sha256": "76220b9fdf3d28eafd99f1136d8a5a4292683ab10fca3ec2080e35c7cac81d09",
-  "script_sha256": "82dcd37c825cd841785eeda5719d4d5bf1b09081e1ac477d83a027cd87b988ad",
+  "source_video_sha256": "9df6b3b4e87518ecff7995548cecce3da7a82972427bf02698f80c314372d24c",
+  "output_sha256": "e7ef9fbb7a8a234d08e0d77ea008074b6ed1ecb60d56eac370fcb97cd8e872f9",
+  "script_sha256": "9303b0597ee42d8c6edcacc6f163090fa6f36ffe775b28298e14acbdacb1d4ab",
   "video_stream": "copied unchanged",
-  "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling",
-  "audio_reused_from": {
-    "revision": "f2861dd13810af392a930ab90b7c3b2761ad86a9",
-    "video_sha256": "2375de8a6ba78112a5574abef92b542a0b5cc51cdceb96b0fede221c35c47d61",
-    "operation": "Original AAC stream copied unchanged; only closing-slide visuals updated."
-  }
+  "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling"
 }
