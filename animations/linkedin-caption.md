@@ -1,9 +1,9 @@
-Higher yield is only half the story.
+I compared current USDC lending yields on Aave V4 and two Morpho V2 vaults with a short-term Treasury ETF.
 
-I compared current Aave V4 and two Morpho V2 USDC vaults with a Treasury ETF. Their quoted rates are higher—but costs and holding time change the advantage, and available liquidity is not a guaranteed withdrawal.
+Their quoted rates were higher, but costs and holding periods affected the net advantage. Withdrawal access also matters: reported liquidity is not a guarantee of immediate cash.
 
-Better UX should show what you could earn after costs and how easily you could get your money back.
+Better interfaces should help users compare net yield for their deposit size and holding period, alongside withdrawal constraints.
 
-Public notebook, code and data: https://github.com/fredLuv/defi-lending-research
+Notebook, code and source data: https://github.com/fredLuv/defi-lending-research
 
 For educational purposes only. Not financial advice.

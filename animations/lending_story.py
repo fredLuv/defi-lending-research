@@ -96,7 +96,8 @@ class LendingStory(m.Scene):
         self.play(m.FadeIn(frame),run_time=.6);self.wait(9.8);self.play(m.FadeOut(frame),run_time=.6)
         # 31.3–38.1: a concise product conclusion.
         closing=m.VGroup(text('Compare net yield. Check your exit.',0,2.4,42),
-            text('Your amount. Your holding period.',0,.8,32),text('Available cash. Withdrawal constraints.',0,.05,30),
-            text('Better UX goes beyond the highest APY.',0,-1.65,32),
-            text('Dated quotes + cost scenarios + shared liquidity, shown separately',0,-2.8,19,MUTED))
+            text('Your amount. Your holding period.',0,.8,32),
+            text('Clear withdrawal constraints.',0,.05,30),
+            text('Notebook · code · data',0,-1.4,23,MUTED),
+            text('github.com/fredLuv/defi-lending-research',0,-2.15,30,'#3476A8'))
         self.play(m.FadeIn(closing),run_time=.8);self.wait(6)

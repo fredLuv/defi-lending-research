@@ -51,9 +51,14 @@
       "wav_sha256": "21f89ab80129c2169378a7adbdba1239b5736e1d3cb3d6cc2a58c0d8df0f6228"
     }
   ],
-  "source_video_sha256": "4f6728df95f541fe3b986280ee7dfaca24e1bfffd4a1530fc97e9f3b6a01edea",
-  "output_sha256": "2375de8a6ba78112a5574abef92b542a0b5cc51cdceb96b0fede221c35c47d61",
+  "source_video_sha256": "4c6fab4e7f938563813232d90daf24be8da62cea7e7e4186506d1a1cd6a53102",
+  "output_sha256": "76220b9fdf3d28eafd99f1136d8a5a4292683ab10fca3ec2080e35c7cac81d09",
   "script_sha256": "82dcd37c825cd841785eeda5719d4d5bf1b09081e1ac477d83a027cd87b988ad",
   "video_stream": "copied unchanged",
-  "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling"
+  "audio": "AAC, -16 LUFS target, -1.5 dBTP ceiling",
+  "audio_reused_from": {
+    "revision": "f2861dd13810af392a930ab90b7c3b2761ad86a9",
+    "video_sha256": "2375de8a6ba78112a5574abef92b542a0b5cc51cdceb96b0fede221c35c47d61",
+    "operation": "Original AAC stream copied unchanged; only closing-slide visuals updated."
+  }
 }
